@@ -68,7 +68,7 @@ window.onload = function() {
 			Ptero.scene_title.animateOut();
 
 			// open socket for remote control
-			/*
+
 			Ptero.socket = io.connect('/');
 			Ptero.socket.on('clientlog', function(data) {
 				console.log(data.msg);
@@ -86,7 +86,6 @@ window.onload = function() {
 					Ptero.orb.engageNet(on);
 				}
 			});
-			*/
 		},
 	});
 };
