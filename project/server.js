@@ -7,7 +7,7 @@ var server = require('http').createServer(app);
 var io = require('socket.io').listen(server);
 
 // Start listening
-var port = 3001;
+var port = 7001;
 server.listen(port);
 console.log('serving on port', port);
 
